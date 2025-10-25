@@ -11,6 +11,11 @@ public class SinhVien {
 
     }
 
+    public SinhVien(int tuoi, String diachi) {
+        this.tuoi = tuoi;
+        this.diachi = diachi;
+    }
+
     public SinhVien(String ten, int tuoi, String diachi) {
         this.ten = ten;
         this.tuoi = tuoi;
@@ -44,7 +49,7 @@ public class SinhVien {
 
     public void hienthidanhsach()
     {
-        System.out.println("Tên " + getTen());
+        System.out.println("Tên " + ten);
         System.out.println("Tuổi " + getTuoi());
         System.out.println("Địa chỉ " + getDiachi());
         System.out.println("====================================");

@@ -60,14 +60,14 @@ public class Quanlisinhvien {
             System.out.println("k tìm thấy sinh viên có tên" +ten);
         }
     }
-    public void sapxepsinhvientheotuoi()
-    {
+        public void sapxepsinhvientheotuoi()
+        {
 
-        sinhvien.stream().sorted(Comparator.comparingInt(SinhVien::getTuoi)).forEach((sv) -> sv.hienthidanhsach());
-    }
-    public void svlonhon20()
-    {
-        sinhvien.stream().filter((sv) ->sv.getTuoi()>=20).forEach((sv) ->sv.hienthidanhsach());
-    }
+            sinhvien.stream().sorted(Comparator.comparingInt(SinhVien::getTuoi)).forEach((sv) -> sv.hienthidanhsach());
+        }
+        public void svlonhon20()
+        {
+            sinhvien.stream().filter((sv) ->sv.getTuoi()>=20).forEach((sv) ->sv.hienthidanhsach());
+        }
 
 }
