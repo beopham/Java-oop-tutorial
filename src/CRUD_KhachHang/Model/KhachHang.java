@@ -20,6 +20,10 @@ public class KhachHang {
         this.diachi = diachi;
     }
 
+    public KhachHang(String id_kh) {
+        this.id_kh = id_kh;
+    }
+
     public String getId_kh() {
         return id_kh;
     }
