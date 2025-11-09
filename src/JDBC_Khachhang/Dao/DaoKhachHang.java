@@ -104,7 +104,7 @@ public class DaoKhachHang implements DAOinterface<KhachHang> {
                 String hoten=rs.getString("hoten");
                 Date ngaysinh=rs.getDate("ngaysinh");
                 String diachi=rs.getString("diachi");
-                KhachHang khachhang=new KhachHang(id_kh,hoten,ngaysinh,diachi);
+                kh=new KhachHang(id_kh,hoten,ngaysinh,diachi);
 
             }
 
